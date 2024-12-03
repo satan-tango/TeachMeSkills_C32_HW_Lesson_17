@@ -28,7 +28,7 @@ public class DataOperation {
 
         myFuncInterface = (k) -> {
             String[] valueArr = (k.split(""));
-            String temp = "";
+            String temp;
 
             for (int i = 0; i < valueArr.length / 2; i++) {
                 temp = valueArr[i];
